@@ -15,7 +15,7 @@ app = Flask(__name__)
 def currently_playing():
     song_data = sp.currently_playing()
     try: 
-        song_url = song_data["item"]["external_urls"]["spotify"]
+        song_url = "https://open.spotify.com/embed/track/" + song_data['item']['id'] + "?utm_source=generator"
         return song_url
     except:
         return None
