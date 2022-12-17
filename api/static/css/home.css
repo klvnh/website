@@ -5,6 +5,8 @@ html, body {
 }
 
 .containter {
+    display: flex;
+    align-items: flex-end;
     padding: 0px;
 }
 
@@ -22,6 +24,5 @@ html, body {
 
 .embed {
     display: flex;
-    align-content: center;
     align-items: flex-end;
 }
