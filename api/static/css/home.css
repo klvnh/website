@@ -6,7 +6,6 @@ html, body {
 
 .box {
     height: 100%;
-    display: flex;
 }
 
 .intro {
@@ -14,9 +13,12 @@ html, body {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    display: inline-block;
 }
 
 .embed {
-    align-items: flex-end;
+    display: flex;
+    
+    iframe {
+        align-items: flex-end;
+    }
 }
