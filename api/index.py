@@ -15,7 +15,7 @@ app = Flask(__name__)
 def currently_playing():
     song_data = sp.currently_playing()
     try: 
-        return song_data["context"]["external_urls"]["spotify"]
+        return song_data["item"]["external_urls"]["spotify"]
     except:
         return None
 
