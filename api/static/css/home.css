@@ -3,7 +3,7 @@ html, body {
 }
 
 .container {
-    display: flex;
+    display:flex;
     flex-direction: column;
     height: 100%;
 
@@ -13,7 +13,7 @@ html, body {
     }
 
     .embed {
-        margin-top: 100%;
+        margin-top: auto;
     }
 
 
