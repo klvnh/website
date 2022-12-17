@@ -1,7 +1,6 @@
-
-
 html, body {
     background-color: #2a2a2a;
+    height: 100%;
     margin: 0px;
     padding: 10px;
 }
@@ -20,5 +19,5 @@ html, body {
 }
 
 .embed {
-    margin-top: auto;
+    transform: translateY(100%);
 }
