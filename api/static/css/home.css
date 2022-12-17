@@ -4,10 +4,8 @@ html, body {
 
 .embed {
     display: flex;
-    flex-direction:column;
-    flex:1;
 
     iframe {
-        margin-top: auto;
+        align-self: flex-end;
     }
 }
