@@ -4,6 +4,10 @@ html, body {
     padding: 10px;
 }
 
+body {
+    height: 100%;
+}
+
 .containter {
     padding: 0px;
 }
