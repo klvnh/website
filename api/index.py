@@ -17,10 +17,11 @@ def currently_playing():
     try: 
         return song_data["context"]["external_urls"]["spotify"]
     except:
-        return 'No current playing song'
-
-currently_playing()
+        return None
 
 @app.route('/')
 def home():
-    return render_template('home.html', currently_playing=currently_playing())
+    if currently_playing() is None:
+        return "No current playing song"
+    else:
+        return render_template('home.html', currently_playing=currently_playing())
