@@ -20,7 +20,7 @@ html, body {
     margin-bottom: 20px;
 }
 
-.embed {
+iframe {
     display: flex;
     align-items: flex-end;
 }
