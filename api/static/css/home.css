@@ -4,8 +4,5 @@ html, body {
 
 .embed {
     display: flex;
-
-    iframe {
-        align-self: flex-end;
-    }
+    align-items: flex-end;
 }
