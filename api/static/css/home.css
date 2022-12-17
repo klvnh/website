@@ -18,8 +18,5 @@ html, body {
 .embed {
     display: flex;
     flex-direction: column;
-    
-    iframe {
-        align-items: flex-end;
-    }
+    align-items: flex-end;
 }
