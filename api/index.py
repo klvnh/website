@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from guis.currently_playing import currently_playing
+from api.guis.currently_playing import currently_playing
 
 app = Flask(__name__)
 
