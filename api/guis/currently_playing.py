@@ -13,4 +13,7 @@ sp = spotipy.Spotify(auth=token)
 
 def currently_playing():
     song_data = sp.currently_playing()
-    return song_data['item']['album']['artists'][0]['external_urls']['spotify']
+    try: 
+        return song_data['item']['album']['artists'][0]['external_urls']['spotify']
+    except:
+        return 'No current playing song'
