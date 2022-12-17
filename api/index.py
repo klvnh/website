@@ -23,6 +23,6 @@ def currently_playing():
 @app.route('/')
 def home():
     if currently_playing() is None:
-        return "<p style=background-color:#2a2a2a;> No current playing song </p>"
+        return "<body style=background-color:#2a2a2a;> No current playing song </body>"
     else:
         return render_template('home.html', currently_playing=currently_playing())
