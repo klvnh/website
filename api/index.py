@@ -26,5 +26,3 @@ def home():
         return "<p style=background-color:#2a2a2a;> No current playing song </p>"
     else:
         return render_template('home.html', currently_playing=currently_playing())
-
-app.run(host='0.0.0.0')
