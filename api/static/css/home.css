@@ -12,7 +12,7 @@ html, body {
         margin-top: 20px;
     }
 
-    .embed {
+    iframe {
         transform: translateY(100%);
     }
 
