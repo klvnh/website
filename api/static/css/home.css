@@ -1,3 +1,7 @@
 html, body {
     background-color: #2a2a2a;
 }
+
+.embed {
+    transform: translateY(-100%);   
+}
