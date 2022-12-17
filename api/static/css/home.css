@@ -3,6 +3,6 @@ html, body {
 }
 
 
-iframe {
+.embed {
     transform: translateY(100%);
 }
