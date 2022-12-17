@@ -1,6 +1,7 @@
 @font-face {
-    font-family: GothanBold;
-    src: url('/api/fonts/GothamBold.ttf')
+    font-family: Gothan;
+    src: url('/api/fonts/GothamBold.ttf');
+    font-weight: bold;
 }
 
 html, body {
