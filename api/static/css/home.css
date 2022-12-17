@@ -2,12 +2,19 @@ html, body {
     background-color: #2a2a2a;
 }
 
-.embed {
+.container {
     display: flex;
     flex-direction: column;
     height: 100%;
 
-    iframe {
+    .box {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .embed {
         margin-top: auto;
     }
+
+
 }
