@@ -7,10 +7,6 @@ html, body {
     flex-direction: column;
     height: 100%;
 
-    .box {
-        margin-bottom: 100px;
-    }
-
     .embed {
         transform: translateY(100%);
     }
