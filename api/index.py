@@ -17,6 +17,7 @@ def currently_playing():
     try: 
         song_url = ""
         song_data["item"]["external_urls"]["spotify"] += "?utm_source=generator"
+        print(song_url)
         return song_url
     except:
         return None
