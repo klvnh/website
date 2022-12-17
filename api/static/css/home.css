@@ -1,3 +1,9 @@
+@font-face {
+    font-family: spotify;
+    src: url('spotify.otf');
+    font-weight: bold;
+}
+
 html, body {
     background-color: #2a2a2a;
     margin: 0px;
@@ -13,7 +19,7 @@ html, body {
     padding: 10px;
 
     p {
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: spotify;
         color: white;
     }
 }
