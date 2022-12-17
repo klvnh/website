@@ -10,8 +10,10 @@ html, body {
 
 .intro {
     border: 1px solid #999;
+    margin: 10px;
 
     .p {
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
     }
 }
