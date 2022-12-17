@@ -3,5 +3,9 @@ html, body {
 }
 
 .embed {
-    transform: translateY(100%);   
+    display: flex;
+    
+    iframe {
+        align-self: flex-end;
+    }
 }
