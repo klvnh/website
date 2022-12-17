@@ -17,9 +17,6 @@ html, body {
 .intro {
     border: 1px solid #999;
     padding: 10px;
-
-    p {
-        font-family: spotify;
-        color: white;
-    }
+    color: white;
+    font-family: spotify;
 }
