@@ -22,3 +22,7 @@ a, a:visited, a:active {
     align-content: center;
     padding-bottom: 15px;
 }
+
+.profile {
+    width: 120px;
+}
