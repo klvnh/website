@@ -24,5 +24,5 @@ a, a:visited, a:active {
 }
 
 .profile {
-    width: 120px;
+    object-fit: contain;  
 }
