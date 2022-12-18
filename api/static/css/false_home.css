@@ -5,7 +5,8 @@ html, body {
     background-color: #2a2a2a;
     margin: 0px;
     padding: 10px;
-    overflow: hidden;
+    max-width: 100%; 
+    height: auto;
 }
 
 a, a:visited, a:active {
@@ -22,9 +23,4 @@ a, a:visited, a:active {
 .socials {
     align-content: center;
     padding-bottom: 15px;
-}
-
-.profile {
-    max-width: 100%; 
-    height: auto;
 }
