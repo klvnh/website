@@ -7,6 +7,10 @@ html, body {
     padding: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .intro {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -16,5 +20,4 @@ html, body {
 .socials {
     align-content: center;
     color: white;
-    text-decoration: none;
 }
