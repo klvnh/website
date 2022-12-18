@@ -9,6 +9,7 @@ html, body {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .intro {
@@ -19,5 +20,4 @@ a {
 
 .socials {
     align-content: center;
-    color: white;
 }
