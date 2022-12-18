@@ -8,8 +8,8 @@ html, body {
 }
 
 a, a:visited, a:active {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .intro {
@@ -24,6 +24,8 @@ a, a:visited, a:active {
 }
 
 .profile {
-    max-height: 100%;
-    max-width: 100%;
+    img {
+        max-height: 100%;
+        max-width: 100%;
+    }
 }
