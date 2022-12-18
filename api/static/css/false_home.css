@@ -24,5 +24,6 @@ a, a:visited, a:active {
 }
 
 .profile {
-    object-fit: contain;  
+    max-height: 100%;
+    max-width: 100%;
 }
