@@ -4,7 +4,7 @@ html, body {
     align-items: center;
     background-color: #2a2a2a;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
 }
 
 a, a:visited, a:active {
@@ -20,5 +20,5 @@ a, a:visited, a:active {
 
 .socials {
     align-content: center;
-    padding-bottom: 15px;
+    margin: 15px;
 }
