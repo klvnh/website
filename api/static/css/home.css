@@ -4,7 +4,7 @@ html, body {
     align-items: center;
     background-color: #2a2a2a;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
 }
 
 a, a:visited, a:active {
@@ -15,6 +15,6 @@ a, a:visited, a:active {
 .intro {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
 }
 
