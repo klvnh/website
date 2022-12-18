@@ -16,4 +16,5 @@ html, body {
 .socials {
     align-content: center;
     color: white;
+    text-decoration: none;
 }
