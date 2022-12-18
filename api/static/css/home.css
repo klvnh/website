@@ -8,8 +8,8 @@ html, body {
 }
 
 a, a:visited, a:active {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .intro {

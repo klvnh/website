@@ -5,8 +5,6 @@ html, body {
     background-color: #2a2a2a;
     margin: 0px;
     padding: 10px;
-    max-width: 100%; 
-    height: auto;
 }
 
 a, a:visited, a:active {
@@ -24,3 +22,5 @@ a, a:visited, a:active {
     align-content: center;
     padding-bottom: 15px;
 }
+
+
