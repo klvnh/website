@@ -7,7 +7,7 @@ html, body {
     padding: 10px;
 }
 
-a {
+a, a:visited, a:active {
   text-decoration: none;
   color: white;
 }
