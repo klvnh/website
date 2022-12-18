@@ -12,6 +12,11 @@ a, a:visited, a:active {
     color: white;
 }
 
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .intro {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -23,9 +28,3 @@ a, a:visited, a:active {
     padding-bottom: 15px;
 }
 
-.profile {
-    img {
-        max-height: 100%;
-        max-width: 100%;
-    }
-}
