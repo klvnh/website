@@ -25,6 +25,6 @@ a, a:visited, a:active {
 }
 
 .profile {
-    height: 200px;
-    width: 200px;
+    max-width: 100%; 
+    height: auto;
 }
