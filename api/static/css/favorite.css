@@ -7,11 +7,10 @@ html, body {
 }
 
 .box {
-    display: inline-flex;
+    display: block;
 }
 
 .irl, .online {
-    display: block;
     border: 5px black;
 }
 
