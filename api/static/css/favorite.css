@@ -10,10 +10,6 @@ html, body {
     display: block;
 }
 
-.irl, .online {
-    border: 5px black;
-}
-
 .mia, .naim, .lei, .taco {
     display: inline-block;
     border: 5px red;
