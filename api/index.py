@@ -26,3 +26,7 @@ def home():
         return render_template("false_home.html")
     else:
         return render_template("home.html", currently_playing=currently_playing())
+
+@app.route('/favorite')
+def favorite():
+    return render_template("favorite.html")
