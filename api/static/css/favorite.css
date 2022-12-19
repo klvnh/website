@@ -1,0 +1,21 @@
+html, body {
+    display: flex;
+    flex-direction: row;
+    background-color: #2a2a2a;
+    margin: 0px;
+    padding: 10px;
+}
+
+.box {
+    display: inline-flex;
+}
+
+.irl, .online {
+    display: block;
+    border: 5px black;
+}
+
+.mia, .naim, .lei, .taco {
+    display: inline-block;
+    border: 5px red;
+}
