@@ -1,10 +1,7 @@
-html, body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2a2a2a;
+body, html {
+    background-color: #2a2a2a41;
     margin: 0px;
-    padding: 10px;  
+    padding: 0px;  
 }
 
 a, a:visited, a:active {
@@ -12,4 +9,18 @@ a, a:visited, a:active {
     color: white;
 }
 
+.nav {
+    display: flex;
+    justify-content: center;
+}
 
+ul {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 0px;
+}
+
+li {
+    padding: 20px
+}
