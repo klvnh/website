@@ -9,5 +9,3 @@ def home():
 @app.route('/favorite')
 def favorite():
     return render_template("favorite.html")
-
-app.run(host="0.0.0.0")
