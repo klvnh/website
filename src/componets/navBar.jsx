@@ -13,7 +13,7 @@ export default class Navbar extends Component {
 
     render() { 
         return (
-            <div id="navbar" >
+            <div id="navbar" className="bg-zinc-800">
 
                 <nav className="flex items-center justify-center">
             
