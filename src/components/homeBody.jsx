@@ -9,13 +9,13 @@ export default class Homebody extends Component {
     render() { 
 
         return (
-            <div className="flex items-center justify-center h-screen overflow-y-auto font-['ubuntu'] text-4xl text-indigo-500 text-xl">
+            <div className="flex items-center justify-center h-screen overflow-y-auto font-['ubuntu'] text-indigo-500 text-xl">
 
                 <div>
 
                     <img className="rounded-full" src={ this.state.pfp } alt="pfp" />
                     
-                    <p className="flex justify-center mt-10">
+                    <p className="flex justify-center mt-10 text-4xl ">
                         Hello, im kvtt!
                     </p>
 
