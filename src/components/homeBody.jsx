@@ -9,7 +9,7 @@ export default class Homebody extends Component {
     render() { 
 
         return (
-            <div className="flex items-center justify-center h-screen overflow-y-auto font-['ubuntu'] text-indigo-500 text-xl">
+            <div className="flex items-center justify-center h-screen overflow-y-auto font-['ubuntu'] text-4xl text-indigo-500 text-xl">
 
                 <div>
 

@@ -18,15 +18,15 @@ export default class Projectsbody extends Component {
                 
                 <a href= { projects.url }>
 
-                <div className="flex p-5 m-5 border-2 border-indigo-800 rounded-lg transition ease-in-out delay-150 hover:scale-110">
+                <div className="flex p-10 m-5 border-2 border-indigo-800 rounded-lg transition ease-in-out delay-150 hover:scale-110">
 
                     <div>
 
-                        <h1 className="pb-5 text-3xl">{ projects.title }</h1>
+                        <h1 className="pb-5 text-4xl">{ projects.title }</h1>
 
                         <div>
 
-                            <p className="pb-2">{ projects.desription }</p>
+                            <p className="pb-2 text-2xl">{ projects.desription }</p>
 
                         </div>
 
