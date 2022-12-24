@@ -22,7 +22,7 @@ export default class Projectsbody extends Component {
 
                     <div>
 
-                        <h1 className="pb-5">{ projects.title }</h1>
+                        <h1 className="pb-5 text-3xl">{ projects.title }</h1>
 
                         <div>
 
