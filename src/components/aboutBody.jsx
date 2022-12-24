@@ -31,7 +31,7 @@ export default class Aboutbody extends Component {
                             Hobbies,
                         </h>
 
-                        <p className="m-8">
+                        <p className="m-8 pb-14">
                             <li>Programming</li>
                             <li>Reading manwha/manhua</li>
                             <li>Playing games</li>
