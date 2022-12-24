@@ -19,7 +19,7 @@ export default class Navbar extends Component {
             
                     <ul className="flex">
 
-                        { this.state.links.map(links => <li className="p-5 text-2xl font-['ubuntu'] text-lg text-indigo-500 transition ease-in-out delay-300 hover:scale-125"> <NavLink to={ links.url }>{ links.title }</NavLink> </li>) }
+                        { this.state.links.map(links => <li className="p-5 text-4xl font-['ubuntu'] text-lg text-indigo-500 transition ease-in-out delay-300 hover:scale-125"> <NavLink to={ links.url }>{ links.title }</NavLink> </li>) }
             
                     </ul>
             
