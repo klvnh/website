@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Bodypage extends Component {
+export default class Homebody extends Component {
 
     state = {
         pfp: "https://cdn.discordapp.com/attachments/1009901888726110360/1054128055519559790/My_project_1.png"
@@ -9,7 +9,7 @@ export default class Bodypage extends Component {
     render() { 
 
         return (
-            <div className="flex items-center justify-center h-screen overflow-y-auto font-['ubuntu'] text-indigo-500 text-xl bg-zinc-800">
+            <div className="flex items-center justify-center h-screen overflow-y-auto font-['ubuntu'] text-indigo-500 text-xl">
 
                 <div>
 

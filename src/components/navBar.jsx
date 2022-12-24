@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom";
 
 export default class Navbar extends Component {
 
     state = {
         links: [
-            {title: "home", url: "https://kvtt.ml"},
-            {title: "about", url: "https://kvtt.ml"},
-            {title: "projects", url: "https://kvtt.ml"},
-            {title: "playlists", url: "https://kvtt.ml"}
-        ]
+            {title: "home", url: "/"},
+            {title: "about", url: "/about"},
+            {title: "projects", url: "/projects"}]
     };
 
     render() { 
+
         return (
             <div id="navbar" className="bg-zinc-800 sticky top-0">
 
@@ -19,7 +19,7 @@ export default class Navbar extends Component {
             
                     <ul className="flex">
 
-                        { this.state.links.map(links => <li className="p-4 font-['ubuntu'] text-lg text-indigo-500 hover:underline hover:text-zinc-800"> <a href={ links.url }>{ links.title }</a> </li>) }
+                        { this.state.links.map(links => <li className="p-4 font-['ubuntu'] text-lg text-indigo-500 transition ease-in-out delay-300 hover:scale-125"> <NavLink to={ links.url }>{ links.title }</NavLink> </li>) }
             
                     </ul>
             
