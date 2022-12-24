@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { NavLink } from "react-router-dom";
 
 export default class Aboutbody extends Component {
 
@@ -15,7 +14,7 @@ export default class Aboutbody extends Component {
 
                     <div>
 
-                        <h className="text-6xl">
+                        <h className="text-4xl">
                             Intro,
                         </h>
 
@@ -27,7 +26,7 @@ export default class Aboutbody extends Component {
 
                     <div>
 
-                        <h className="text-6xl">
+                        <h className="text-4xl">
                             Hobbies,
                         </h>
 
@@ -41,14 +40,14 @@ export default class Aboutbody extends Component {
 
                     <div>
 
-                        <h className="text-6xl">
+                        <h className="text-4xl">
                             Socials,
                         </h>
 
                         <p className="m-8 text-2xl">
-                            <li className="underline"><NavLink to="https://www.instagram.com/klvn.huang/">Instagram</NavLink></li>
-                            <li className="underline"><NavLink to="https://open.spotify.com/user/pusffa9nmcnv6qy7lywq2vifa?si=8a464b8f91ba4c27">Spotify</NavLink></li>
-                            <li className="underline"><NavLink to="https://github.com/klvnh">Github</NavLink></li>
+                            <li className="underline"><a href="https://www.instagram.com/klvn.huang/">Instagram</a></li>
+                            <li className="underline"><a href="https://open.spotify.com/user/pusffa9nmcnv6qy7lywq2vifa?si=8a464b8f91ba4c27">Spotify</a></li>
+                            <li className="underline"><a href="https://github.com/klvnh">Github</a></li>
                         </p>
 
                     </div>
