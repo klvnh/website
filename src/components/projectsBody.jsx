@@ -5,6 +5,8 @@ export default class Projectsbody extends Component {
     state = {
         projects: [
             {title: "website", url:"https://github.com/klvnh/website", desription: "Source code of kvtt.ml"},
+            {title: "kae bot", url:"https://github.com/klvnh/kae", desription: "A personal use/made discord bot named kae"},
+            {title: "velle bot", url:"https://github.com/klvnh/velle", desription: "A custom bot made for the discord server velle"},
 
         ]
     };
