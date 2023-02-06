@@ -16,7 +16,7 @@ export default class Homebody extends Component {
                     <img className="rounded-full" src={ this.state.pfp } alt="pfp" />
                     
                     <p className="flex justify-center mt-8 text-4xl ">
-                        Hello, im kvtt!
+                        Hello, im kelvin!
                     </p>
 
                 </div>
