@@ -7,10 +7,6 @@ import Home from './components/pages/home';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: (
-      <Home />
-    )},
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
