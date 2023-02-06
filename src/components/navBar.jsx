@@ -6,8 +6,7 @@ export default class Navbar extends Component {
     state = {
         links: [
             {title: "home", url: "/"},
-            {title: "about", url: "/about"},
-            {title: "projects", url: "/projects"}]
+            {title: "about", url: "/about"}]
     };
 
     render() { 
