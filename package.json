@@ -21,6 +21,7 @@
   "homepage": "https://github.com/yonipy/poop#readme",
   "dependencies": {
     "@astrojs/tailwind": "^3.0.1",
+    "@astrojs/vercel": "^3.1.1",
     "astro": "^2.0.10",
     "tailwindcss": "^3.2.6"
   }
