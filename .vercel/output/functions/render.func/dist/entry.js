@@ -4,7 +4,7 @@ import * as undici from 'undici';
 import { setTimeout as setTimeout$1, clearTimeout as clearTimeout$1 } from 'node:timers';
 import { A as App, s as server_default, d as deserializeManifest } from './chunks/astro.0166d47f.mjs';
 import { splitCookiesString } from 'set-cookie-parser';
-import { _ as _page0 } from './chunks/pages/all.2887d384.mjs';
+import { _ as _page0 } from './chunks/pages/all.f53df456.mjs';
 import 'html-escaper';
 import 'path-to-regexp';
 import 'mime';
@@ -2933,7 +2933,7 @@ const adapter = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 const pageMap = new Map([["src/pages/index.astro", _page0],]);
 const renderers = [Object.assign({"name":"astro:jsx","serverEntrypoint":"astro/jsx/server.js","jsxImportSource":"astro"}, { ssr: server_default }),];
 
-const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/vercel/serverless","routes":[{"file":"","links":["_astro/index.e9b0024d.css"],"scripts":[],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}}],"base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"gfm":true,"smartypants":true,"contentDir":"file:///C:/Users/ii_sk/OneDrive/Code/my-app/src/content/"},"pageMap":null,"propagation":[["C:/Users/ii_sk/OneDrive/Code/my-app/src/pages/index.astro","in-tree"]],"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"_@astrojs-ssr-virtual-entry.mjs","astro:scripts/before-hydration.js":""},"assets":["/_astro/index.e9b0024d.css","/robots.txt"]}), {
+const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/vercel/serverless","routes":[{"file":"","links":["_astro/index.310eb0cc.css"],"scripts":[],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}}],"base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"gfm":true,"smartypants":true,"contentDir":"file:///C:/Users/ii_sk/OneDrive/Code/my-app/src/content/"},"pageMap":null,"propagation":[["C:/Users/ii_sk/OneDrive/Code/my-app/src/pages/index.astro","in-tree"]],"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"_@astrojs-ssr-virtual-entry.mjs","astro:scripts/before-hydration.js":""},"assets":["/_astro/index.310eb0cc.css","/robots.txt"]}), {
 	pageMap: pageMap,
 	renderers: renderers
 });
