@@ -1,7 +1,7 @@
-import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
-
-export default defineConfig({
-  // ...
-  integrations: [tailwind()],
-});
+module.exports = {
+  content: [],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
