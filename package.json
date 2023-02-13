@@ -2,21 +2,26 @@
   "name": "my-app",
   "version": "1.0.0",
   "description": "",
-  "main": "tailwind.config.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yonipy/poop.git"
   },
-  "author": "",
+  "author": "klvnh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yonipy/poop/issues"
   },
   "homepage": "https://github.com/yonipy/poop#readme",
-  "devDependencies": {
+  "dependencies": {
+    "@astrojs/tailwind": "^3.0.1",
+    "astro": "^2.0.10",
     "tailwindcss": "^3.2.6"
   }
 }
