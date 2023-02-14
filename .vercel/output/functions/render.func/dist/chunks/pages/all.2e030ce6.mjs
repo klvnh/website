@@ -1,10 +1,17 @@
-<html lang="en">
+/* empty css                           */import { c as createAstro, a as createComponent, r as renderTemplate, b as renderHead } from '../astro.0166d47f.mjs';
+import 'html-escaper';
+
+const $$Astro = createAstro();
+const $$Index = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
+  Astro2.self = $$Index;
+  return renderTemplate`<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>klvnh</title>
-</head>
+${renderHead($$result)}</head>
 <body>
 
     <div id="container" class="font-mono">
@@ -39,5 +46,17 @@
 
     </div>
 
-</body>
-</html>
+</body></html>`;
+}, "C:/Users/ii_sk/OneDrive/Code/my-app/src/pages/index.astro");
+
+const $$file = "C:/Users/ii_sk/OneDrive/Code/my-app/src/pages/index.astro";
+const $$url = "";
+
+const _page0 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+    __proto__: null,
+    default: $$Index,
+    file: $$file,
+    url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+export { _page0 as _ };
