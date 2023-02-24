@@ -4,7 +4,7 @@ import * as undici from 'undici';
 import { setTimeout as setTimeout$1, clearTimeout as clearTimeout$1 } from 'node:timers';
 import { A as App, s as server_default, d as deserializeManifest } from './chunks/astro.0166d47f.mjs';
 import { splitCookiesString } from 'set-cookie-parser';
-import { _ as _page0 } from './chunks/pages/all.d1a91c47.mjs';
+import { _ as _page0 } from './chunks/pages/all.e56746f6.mjs';
 import 'html-escaper';
 import 'path-to-regexp';
 import 'mime';
@@ -2933,7 +2933,7 @@ const adapter = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 const pageMap = new Map([["src/pages/index.astro", _page0],]);
 const renderers = [Object.assign({"name":"astro:jsx","serverEntrypoint":"astro/jsx/server.js","jsxImportSource":"astro"}, { ssr: server_default }),];
 
-const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/vercel/serverless","routes":[{"file":"","links":["_astro/index.3eabdb7e.css"],"scripts":[{"type":"inline","value":"const t=document.getElementById(\"nightmode\");var e=document.getElementById(\"main\");function o(){t.addEventListener(\"click\",function(){e.style.backgroundColor==\"black\"?(e.style.backgroundColor=\"white\",e.style.color=\"black\"):(e.style.backgroundColor=\"black\",e.style.color=\"white\")})}o();\n"}],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}}],"base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"gfm":true,"smartypants":true,"contentDir":"file:///C:/Users/ii_sk/OneDrive/Code/my-app/src/content/"},"pageMap":null,"propagation":[["C:/Users/ii_sk/OneDrive/Code/my-app/src/pages/index.astro","in-tree"]],"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"_@astrojs-ssr-virtual-entry.mjs","/astro/hoisted.js?q=0":"_astro/hoisted.9efac93d.js","astro:scripts/before-hydration.js":""},"assets":["/_astro/index.3eabdb7e.css","/robots.txt"]}), {
+const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/vercel/serverless","routes":[{"file":"","links":["_astro/index.ce4248e0.css"],"scripts":[{"type":"inline","value":"const t=document.getElementById(\"nightmode\");var e=document.getElementById(\"main\");function o(){t.addEventListener(\"click\",function(){e.style.backgroundColor==\"black\"?(e.style.backgroundColor=\"white\",e.style.color=\"black\"):(e.style.backgroundColor=\"black\",e.style.color=\"white\")})}o();\n"}],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}}],"base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"gfm":true,"smartypants":true,"contentDir":"file:///C:/Users/ii_sk/OneDrive/Code/my-app/src/content/"},"pageMap":null,"propagation":[["C:/Users/ii_sk/OneDrive/Code/my-app/src/pages/index.astro","in-tree"]],"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"_@astrojs-ssr-virtual-entry.mjs","/astro/hoisted.js?q=0":"_astro/hoisted.9efac93d.js","astro:scripts/before-hydration.js":""},"assets":["/_astro/index.ce4248e0.css","/robots.txt"]}), {
 	pageMap: pageMap,
 	renderers: renderers
 });
