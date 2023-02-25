@@ -4,12 +4,12 @@ function animation() {
     // Working on this right now...
     intro.addEventListener('click', function() {
         if (intro.innerText == "Hello, Im Kelvin.") {
-            intro.innerText = "Im a junior in HS."
-        } else if (intro.innerText == "Im a junior in HS.") {
-            intro.innerText = "I'm from NYC"
-        } else if (intro.innerText == "I'm from NYC") {
-            intro.innerText = "Hello, Im Kelvin."
+            intro.innerText = "I like coding.";
+        } else if (intro.innerText == "I like coding.") {
+            intro.innerText = "Im from NYC.";
+        } else if (intro.innerText == "Im from NYC.") {
+            intro.innerText = "Hello, Im Kelvin.";
         }})
-}
+};
 
 animation()
