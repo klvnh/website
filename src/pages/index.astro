@@ -9,20 +9,35 @@
         ></script>
         <script src="../scripts/nightmode.js"></script>
         <script src="../scripts/animation.js"></script>
+        <script src="../scripts/nav.js"></script>
         <title>klvnh</title>
     </head>
     <body>
+
         <div id="container" class="font-mono select-none">
+            <div id="navbar" class="flex justify-end m-3">
+                <button id="navbutton"><i class="fa-solid fa-bars flex justify-end m-3 text-2xl"></i></button>
+                <div id="navpage" class="flex justify-center items-center hidden h-screen w-screen">
+                    <nav class="flex flex-col">
+                        <ul>
+                            <li class="m-5 text-lg"><a href="/playlists/k">k</a></li>
+                            <li class="m-5 text-lg"><a href="/playlists/r">r</a></li>
+                            <li class="m-5 text-lg"><a href="/playlists/c">c</a></li>
+                            <li class="m-5"><button id="exit"><i class="fa-solid fa-xmark text-2xl"></i></button></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
             <div id="main" class="flex justify-center items-center h-screen">
-                <div id="border" class="flex flex-col items-center m-4 p-2 pt-4 pb-4">
-                    <button id="nightmode" class="text-2xl transition ease-in-out delay-250 hover:opacity-80 duration-700"><img id="profile" class="m-3 rounded-full w-32 h-auto transition ease-in-out delay-250 hover:opacity-60 duration-700" src="./src/pfp.png" alt="profile-image"/></button>
+                <div class="flex flex-col items-center m-4 p-2 pt-4 pb-4">
+                    <button id="nightmode" class="text-2xl transition ease-in-out delay-250 hover:opacity-80 duration-700"><h1 id="profile" class="m-3 bg-black h-24 w-24 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-40 lg:w-40 rounded-full w-32 h-auto transition ease-in-out delay-250 hover:opacity-60 duration-700"></h1></button>
                     <div id="intro" class="flex text-center m-2 text-lg sm:text-lg md:text-2xl lg:text-4xl transition ease-in-out delay-250 hover:opacity-60 duration-700">
                         Hello, Im Kelvin.
                     </div>
                 </div>
             </div>
 
-            <footer class="p-5 bg-black text-white">
+            <footer id="footer" class="p-5 bg-black text-white">
                 <div class="flex justify-between">
                     <div class="inline-block text-md sm:text-sm md:text-md lg:text-lg">
                         <p>

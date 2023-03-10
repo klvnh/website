@@ -1,6 +1,6 @@
-const button = document.getElementById("nightmode");
+const button = document.getElementById('nightmode');
 var aboutme = document.getElementById('main');
-var border = document.getElementById('border');
+var profile = document.getElementById('profile');
 
 function nightmode() {
     button.addEventListener('click', function () {
@@ -8,12 +8,12 @@ function nightmode() {
         if (aboutme.style.backgroundColor == "black") {
             aboutme.style.backgroundColor = "white";
             aboutme.style.color = "black";
-            border.style.borderColor = "black";
+            profile.style.backgroundColor = "black";
 
         } else {
             aboutme.style.backgroundColor = "black";
             aboutme.style.color = "white";
-            border.style.borderColor = "white";
+            profile.style.backgroundColor = "white";
         }
     })
 };
